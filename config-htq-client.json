@@ -1,0 +1,53 @@
+{
+    "app_key": "sbvrgrgbg10rgye5y5ebfbgdyyhdgsrg"
+    ,"app_token": "usbvbhu0srfefeafrrgy5rgrgrfrfegsrg"
+    ,"htq_port":5999
+    ,"htq_srv":"localhost"
+    ,"htq_api":{
+        "addQueue":{
+            "url":"/api/addQueue"
+            ,"params":{
+                "queue_name":"string"
+                ,"type":"string"          
+                ,"app_key":"string"       
+                ,"app_token":"string"     
+                ,"stepping_time":"int"    
+                ,"max_time_interval":"int"
+            }
+        }
+        ,"addTask":{
+            "url":"/api/addTask"
+            ,"params":{
+                "queue_name":"string"
+                ,"url":"string"          
+                ,"app_key":"string"       
+                ,"app_token":"string"     
+                ,"execute_time":"int"
+            }
+        }
+        ,"getAllQueues":{
+            "url":"/api/allQueue"
+            ,"params":{
+                "app_key":"string"       
+                ,"app_token":"string"   
+            }
+        }
+        ,"countQueueTasks":{
+            "url":"/api/countQueue"
+            ,"params":{
+                "queue_name":"string"
+                ,"app_key":"string"       
+                ,"app_token":"string"   
+            }
+        }
+        ,"deleteQueue":{
+            "url":"/api/deleteQueue"
+            ,"params":{
+                "queue_name":"string"
+                ,"app_key":"string"       
+                ,"app_token":"string"   
+            }
+        }
+    }
+}
+  
