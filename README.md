@@ -1,7 +1,7 @@
 ### 前言
 结合HTQ以及HPROSE，通过RPC远程调用方式实现实时、定时任务队列
-#【HTQ】https://github.com/star7th/htq
-#【HPROSE】https://github.com/hprose/hprose-nodejs/wiki
+**【HTQ】https://github.com/star7th/htq
+**【HPROSE】https://github.com/hprose/hprose-nodejs/wiki
 
 ### 一、什么是 HTQ
 
